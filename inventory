@@ -1,0 +1,6 @@
+[lb_servers]
+varnish
+
+[web_servers]
+www1
+www2

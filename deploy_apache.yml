@@ -1,0 +1,8 @@
+---
+- name: Ensure Apache is deployed
+  hosts: web_servers
+  force_handlers: yes
+
+  roles: 
+    - role: apache
+      

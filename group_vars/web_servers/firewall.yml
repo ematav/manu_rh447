@@ -1,0 +1,9 @@
+---
+firewall_rules:
+# Allow http requests from any internal zone source
+  - zone: internal
+    service: http
+
+# Add varnish, the load balancer, to the internal zone
+  - zone: internal
+    source: "192.168.2.58"

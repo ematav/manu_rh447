@@ -1,0 +1,29 @@
+---
+# defaults file for haproxy
+
+# Log-level for HAProxy logs
+haproxy_log_level: info
+
+# Port exposed to clients
+haproxy_port: 80
+
+# Name for the default backend
+haproxy_backend_name: app
+
+# Port backend iis exposed to
+haproxy_backend_port: 80
+
+# The appservers is a list of backend servers
+# with an example structure
+#   haproxy_appservers:
+#     - name: serverb.lab.example.com
+#       ip_address: 1.2.3.4
+#       port: 5000
+#     - name: serverc.lab.example.com
+##       ip_address: 1.2.3.5
+#       port: 5000
+haproxy_appservers: []
+
+# Socket used to communicate with haproxy service. DO NOT CHANGE
+haproxy_socket: /var/run/haproxy.sock
+

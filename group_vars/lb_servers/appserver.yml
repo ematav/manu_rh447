@@ -1,0 +1,6 @@
+---
+haproxy_appservers:
+  - name: www1
+    ip: "192.168.2.59"
+  - name: www2
+    ip: "192.168.2.60"

@@ -1,0 +1,7 @@
+---
+- name: Ensure HAProxy is deployed
+  hosts: lb_servers
+  force_handlers: yes
+
+  roles:
+    - role: haproxy

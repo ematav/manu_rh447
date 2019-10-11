@@ -1,0 +1,11 @@
+---
+# defaults file for firewall
+#
+#firewall_rules:
+#  - service: http
+#    zone: internal
+#  - port: 8443
+#    source: 192.168.0.7
+#By default, no rules are implemented
+firewall_rules: []
+
